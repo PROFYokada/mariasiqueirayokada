@@ -1,0 +1,3 @@
+aluno = "João"; print(aluno);
+    
+    
