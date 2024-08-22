@@ -1,11 +1,11 @@
-def calcular_cliques_primeiro_link(t):
+def calcular_cliques_primeiro_link(p):
     # Verificando se t está no intervalo válido
-    if 1 <= t <= 1000:
-        return 4 * t
+    if 1 <= p <= 1000:
+        return 4 * p
     else:
         return "Entrada inválida"
 
 # Teste do programa
-t = int(input("Digite o número de pessoas que clicaram no terceiro link: "))
-resultado = calcular_cliques_primeiro_link(t)
+p = int(input("Digite o número de pessoas que clicaram no terceiro link: "))
+resultado = calcular_cliques_primeiro_link(p)
 print(resultado)
