@@ -9,12 +9,4 @@ public class Main {
         String resultado = calcularCliquesPrimeiroLink(t);
         System.out.println(resultado);
     }
-    
-    public static String calcularCliquesPrimeiroLink(int t) {
-        if (1 <= t && t <= 1000) {
-            return String.valueOf(4 * t);
-        } else {
-            return "Entrada inválida";
-        }
-    }
-}
+
