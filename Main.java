@@ -10,6 +10,7 @@ public class Main {
         System.out.println(resultado);
     }
     
+    //ma oe comentário adicionado
     public static String calcularCliquesPrimeiroLink(int t) {
         if (1 <= t && t <= 1000) {
             return String.valueOf(4 * t);
